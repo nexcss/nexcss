@@ -1,0 +1,139 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and color */
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding-top: 0;
+  margin: 0;
+}
+
+/* Header styling */
+header {
+  background-image: url("d:\compprofile\homepage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the user profile link */
+.navbar-right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Change color of navbar links on hover */
+.navbar a:hover,
+.navbar a:hover .fas {
+  color: #00aaff;
+}
+
+/* Main content area */
+.main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set body height to 100% of viewport height */
+}
+
+.split-layout {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+  background-color: #ffffff;
+}
+
+.image-container {
+  flex: 0 0 45%;
+  padding: auto;
+}
+
+.image-container img {
+  width: 100%; /* Make sure the image doesn't exceed its container */
+}
+h3 {
+  font-family: sans-serif;
+}
+.text-container {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  width: 100%;
+}
+.text {
+  font-family: sans-serif;
+}
+.footer {
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+}
+
+/* Number container styling */
+.footer-space {
+  flex-basis: 30%; /* Adjust the width of each number container */
+}
+
+/* Number styling */
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+.footer-text {
+  font-size: 12px;
+  color: #fffdfd;
+}
+
+/* Text styling */
+
+/* Footer styling */
